@@ -1,7 +1,7 @@
 
 const Homepage = () => {
   return (
-    <div>
+    <div >
       Hello I am Jagruti
     </div>
   )
