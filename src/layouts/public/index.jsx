@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const PublicLayout = ({
   children = <></>,
-  title = "Shree Odisha Handloom",
+  title = "Ishita Vishwakarma Portfolio",
   description,
   ogImage,
 }) => {

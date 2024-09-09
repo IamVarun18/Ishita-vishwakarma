@@ -1,9 +1,10 @@
+import { AboutMe, Homepage } from "@/components";
 import PublicLayout from "@/layouts/public";
 
 const index = () => {
   return (
     <PublicLayout>
-      <div>
+      {/* <div>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
         dignissimos natus repellat maxime, assumenda inventore! Earum quaerat
         quisquam laboriosam consectetur, doloribus consequatur! Deserunt, iste
@@ -225,7 +226,9 @@ const index = () => {
         Quisquam ipsum exercitationem libero maxime harum consectetur quae eos
         incidunt, praesentium ab, consequuntur sunt, repellendus animi iste quo
         maiores soluta veniam aperiam.
-      </div>
+      </div> */}
+      <Homepage />
+      <AboutMe />
     </PublicLayout>
   );
 };
