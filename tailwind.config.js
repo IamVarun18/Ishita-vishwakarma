@@ -9,16 +9,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#0095F5",
-        secondary: "#1F1F1F",
-        tertiary: "#FF5733",
-        facebook: "#4267B2",
+        pink: "#FBD7DB",
+        brown: "#260609",
+        beige: "#F09F74",
+        red: "#D00139",
         instagram: "#bc2a8d",
         twitter: "#1da1f2",
         linkedin: "#0077b5",
         pinterest: "#E60023",
         whatsapp: "#25d366",
-        youtube: "#cd201f",
+        black: "#000000",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

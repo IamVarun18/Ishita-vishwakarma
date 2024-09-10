@@ -1,13 +1,13 @@
-import { Homepage } from "@/components";
+import { AboutMe, Homepage } from "@/components";
 import PublicLayout from "@/layouts/public";
 
-const index = () => {
+const Index = () => {
   return (
     <PublicLayout>
       <Homepage />
-
+      <AboutMe />
     </PublicLayout>
   );
 };
 
-export default index;
+export default Index;
