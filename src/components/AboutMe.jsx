@@ -1,7 +1,7 @@
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className="h-screen bg-orange-400">
       
     </div>
   )
