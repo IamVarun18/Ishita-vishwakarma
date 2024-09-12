@@ -9,6 +9,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        textpink: "#F4A8B5",
+
+        lightpink: "#FFE9ED",
+
         pink: "#FBD7DB",
         brown: "#260609",
         beige: "#F09F74",
