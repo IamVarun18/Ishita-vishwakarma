@@ -1,6 +1,11 @@
-import { AboutMe, Homepage, Musiclib } from "@/components";
-import { Upcoming } from "@/components";
-import ContactForm from "@/components/home/ContactForm";
+import {
+  AboutMe,
+  ContactForm,
+  Homepage,
+  Musiclib,
+  Upcoming,
+} from "@/components";
+
 import PublicLayout from "@/layouts/public";
 
 const Index = () => {
@@ -9,8 +14,8 @@ const Index = () => {
       <Homepage />
       <AboutMe />
       <Musiclib />
-      <Upcoming/>
-      <ContactForm/>
+      <Upcoming />
+      <ContactForm />
     </PublicLayout>
   );
 };

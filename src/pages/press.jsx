@@ -1,6 +1,6 @@
 import PublicLayout from '@/layouts/public'
 
-const About = () => {
+const press = () => {
   return (
    <PublicLayout>
       
@@ -8,4 +8,4 @@ const About = () => {
   )
 }
 
-export default About
+export default press

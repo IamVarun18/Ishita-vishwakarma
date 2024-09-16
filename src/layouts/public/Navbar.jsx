@@ -18,16 +18,16 @@ const Navbar = () => {
           <Link href="/" className="hover:underline">
             Home
           </Link>
-          <Link href="#" className="hover:underline">
+          <Link href="/about" className="hover:underline">
             About
           </Link>
-          <Link href="#" className="hover:underline">
+          <Link href="/music" className="hover:underline">
             Music
           </Link>
-          <Link href="#" className="hover:underline">
+          <Link href="/press" className="hover:underline">
             Press
           </Link>
-          <Link href="#" className="hover:underline">
+          <Link href="/contact" className="hover:underline">
             Contact
           </Link>
         </div>

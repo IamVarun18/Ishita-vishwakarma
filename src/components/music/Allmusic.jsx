@@ -67,8 +67,8 @@ const Allmusic = () => {
 
 
       {/* Filter Buttons */}
-      <div className="container mx-auto px-4 py-16  mt-20">
-        <div className="flex justify-center mb-10 max-w-5xl mx-auto">
+      <div className="container mx-auto  py-16  mt-20">
+        <div className="flex justify-center  px-4 mb-10 max-w-5xl mx-auto">
           <button className="bg-red text-white text-lg font-semibold py-2 px-6 rounded-sm">All Music</button>
           <button className="border border-red text-red text-lg font-semibold py-2 px-6 rounded-sm">Vocals</button>
           <button className="border border-red text-red text-lg font-semibold py-2 px-6 rounded-sm">Lyrics</button>
@@ -95,10 +95,9 @@ const Allmusic = () => {
     </div>
   ))}
 </div>
-
-      </div>
-    </div>
-  );
+</div>
+</div>
+);
 };
 
 export default Allmusic;
