@@ -4,7 +4,8 @@ import { faFacebookF, faInstagram, faTwitter, faLinkedin, faYoutube } from '@for
 
 const Navbar = () => {
   return (
-    <nav className="w-full  fixed top-0 p-6  bg-gradient-to-r from-black/40 to-black/40 rounded-lg shadow-md z-50 m-4 ">
+    <div>
+ <nav className="w-full  fixed top-0 p-6  bg-gradient-to-r from-black/40 to-black/40 rounded-lg shadow-md z-50 m-4 right-[0.21rem]">  
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="text-white font-bold text-2xl">
@@ -51,7 +52,10 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  );
+  
+    </div>
+    );
+   
 };
 
 export default Navbar;
