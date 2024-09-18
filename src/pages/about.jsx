@@ -1,11 +1,12 @@
-import PublicLayout from '@/layouts/public'
+import PublicLayout from '@/layouts/public';
+import Aboutfront from '@/components/about/Aboutfront';
 
 const About = () => {
   return (
-   <PublicLayout>
-      
-   </PublicLayout>
-  )
-}
+    <PublicLayout>
+      <Aboutfront />
+    </PublicLayout>
+  );
+};
 
-export default About
+export default About;
