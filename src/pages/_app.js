@@ -1,7 +1,7 @@
-import "@/styles/globals.css";
+import '@/styles/globals.css';
 import 'swiper/css';
 import 'swiper/css/effect-creative';
-import '@/styles/styles.css'; // Your custom styles, if needed
+import '@/styles/Slider_about.css'; // Import your Slider styles here
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
