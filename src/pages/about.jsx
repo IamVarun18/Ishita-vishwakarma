@@ -3,6 +3,8 @@ import { Aboutfront, Indiagt, Winner } from '@/components';
 
 
 
+import Aboutfront from '@/components/about/Aboutfront';
+import { Press } from '@/components';
 
 const About = () => {
   return (
@@ -10,6 +12,7 @@ const About = () => {
       <Aboutfront />
       <Winner />
       <Indiagt/>
+      <Press/>
     </PublicLayout>
   );
 };
