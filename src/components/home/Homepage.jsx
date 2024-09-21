@@ -1,6 +1,6 @@
 const Homepage = () => {
   return (
-    <div className="relative bg-[url('/home/3.jpg')] bg-no-repeat bg-center bg-cover h-screen">
+    <div className="relative bg-[url('https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-center bg-cover h-screen">
     
       <div className="relative z-10 flex flex-col items-start justify-center h-full p-6 md:p-16">
         <h1 className="text-6xl font-semibold text-white">Ishita</h1>
