@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="fixed top-0 p-6  w-full bg-gradient-to-r from-black/40 to-black/40 rounded-lg shadow-md z-50 m-3">
+    <div className='w-screen flex items-center justify-center '>
+      <nav className="fixed top-3 p-6 left-6 w-[97%] bg-gradient-to-r from-black/40 to-black/40 rounded-lg shadow-md z-50 ">
         <div className="flex items-center justify-between gap-4">
           {/* Logo */}
           <div className="text-white font-bold text-lg ">

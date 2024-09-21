@@ -1,10 +1,14 @@
+import { ContactForm, Press, PressHome } from '@/components'
+
 import PublicLayout from '@/layouts/public'
 
 const press = () => {
   return (
-   <PublicLayout>
-      
-   </PublicLayout>
+    <PublicLayout>
+      <PressHome />
+      <Press />
+      <ContactForm />
+    </PublicLayout>
   )
 }
 
