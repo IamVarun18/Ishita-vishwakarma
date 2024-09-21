@@ -8,13 +8,12 @@ const Navbar = () => {
       <nav className="container fixed top-0 p-6  bg-gradient-to-r from-black/40 to-black/40 rounded-lg shadow-md z-50 m-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-white font-bold text-2xl">
-            <span className="text-white">I</span>
-            <span className="text-white">SHITA</span> MUSIC
+          <div className="text-white font-bold text-xl">
+            <img src="ICONS/Icons/1x/logo.png" alt="" className="h-16" />
           </div>
 
           {/* Navigation Links */}
-          <div className="hidden md:flex space-x-8 text-white text-lg">
+          <div className="hidden md:flex space-x-8 text-white text-lg font-thin">
             <Link href="/" className="hover:underline">
               Home
             </Link>
