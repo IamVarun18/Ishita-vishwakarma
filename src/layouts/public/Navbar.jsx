@@ -1,15 +1,13 @@
 import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="container fixed top-0 p-6  bg-gradient-to-r from-black/40 to-black/40 rounded-lg shadow-md z-50 m-4">
-        <div className="flex items-center justify-between">
+      <nav className="fixed top-0 p-6  w-full bg-gradient-to-r from-black/40 to-black/40 rounded-lg shadow-md z-50 m-3">
+        <div className="flex items-center justify-between gap-4">
           {/* Logo */}
-          <div className="text-white font-bold text-xl">
-            <img src="ICONS/Icons/1x/logo.png" alt="" className="h-16" />
+          <div className="text-white font-bold text-lg ">
+            <img src="ICONS/Icons/1x/logo.png" alt="" className="h-12" />
           </div>
 
           {/* Navigation Links */}
@@ -32,21 +30,23 @@ const Navbar = () => {
           </div>
 
           {/* Social Icons */}
-          <div className="hidden md:flex space-x-4 text-white">
+          <div className="hidden md:flex h-full text-white justify-center items-center gap-4">
             <Link href="#">
-              <FontAwesomeIcon icon={faFacebookF} />
+            <img src="ICONS/Icons/1x/fb.png" alt="facebook" className="h-4 w-4" />
             </Link>
             <Link href="#">
-              <FontAwesomeIcon icon={faInstagram} />
+            <img src="ICONS/Icons/1x/ig.png" alt="instagram"  className="h-4 w-4"/>
             </Link>
             <Link href="#">
-              <FontAwesomeIcon icon={faTwitter} />
+            <img src="ICONS/Icons/1x/x.png" alt="twitter" className="h-4 w-4" />
+
             </Link>
             <Link href="#">
-              <FontAwesomeIcon icon={faLinkedin} />
+            <img src="ICONS/Icons/1x/li.png" alt="linkedin"  className="h-4 w-4"/>
             </Link>
             <Link href="#">
-              <FontAwesomeIcon icon={faYoutube} />
+            <img src="ICONS/Icons/1x/yt.png" alt="youtube"  className="h-4 w-4"/>
+
             </Link>
           </div>
         </div>

@@ -4,12 +4,13 @@ import React from 'react';
 
 const ContactForm = () => {
     return (
-        <div className='relative h-screen  flex justify-center items-center'>
+        <div className='relative h-screen  flex justify-center items-center bg-white'>
 
             <div className='px-[5%]'>
-                <div className='grid grid-cols-2   '>
+                <div className="grid grid-cols-3 gap-20">
                     {/* Left section for Business Queries */}
-                    <div className='flex flex-col '>
+                    <div className='col-span-1'>
+                    <div className='flex flex-col'>
                         <h2 className='text-4xl font-bold text-textpink '>For Business <br />Queries:</h2>
                         <p className='text-lg mt-4'>Let's collaborate and make music together! <br /> Text or email to us at:</p>
                         <p className='mt-4 text-xl font-semibold text-textpink'>Text:</p>
@@ -17,8 +18,11 @@ const ContactForm = () => {
                         <p className='mt-4 text-xl font-semibold text-textpink'>Mail:</p>
                         <p className='text-lg'>Ishitavishwakarma@gmail.com</p>
                     </div>
+                    </div>
+                   
 
                     {/* Right section for Contact Form */}
+                    <div className='col-span-2'>
                     <div className='flex flex-col justify-center'>
                         <h2 className='text-4xl  font-bold text-textpink'>Send Me A
                             <br /> Message:</h2>
@@ -71,6 +75,8 @@ const ContactForm = () => {
                             </div>
                         </form>
                     </div>
+                    </div>
+                  
                 </div>
             </div>
             {/* Footer */}
