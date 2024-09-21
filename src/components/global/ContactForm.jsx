@@ -12,7 +12,7 @@ const ContactForm = () => {
                     <div className='col-span-1'>
                     <div className='flex flex-col'>
                         <h2 className='text-4xl font-bold text-textpink '>For Business <br />Queries:</h2>
-                        <p className='text-lg mt-4'>Let's collaborate and make music together! <br /> Text or email to us at:</p>
+                        <p className='text-lg mt-4'>{`Let's collaborate and make music together! <br /> Text or email to us at:`}</p>
                         <p className='mt-4 text-xl font-semibold text-textpink'>Text:</p>
                         <p className='text-lg'>+91 98 76 54 32 10</p>
                         <p className='mt-4 text-xl font-semibold text-textpink'>Mail:</p>
@@ -63,7 +63,7 @@ const ContactForm = () => {
                                         className='mr-2'
                                     />
                                     <label htmlFor='recaptcha' className='text-lg'>
-                                        I'm not a robot
+                                       {` I'm not a robot`}
                                     </label>
                                 </div>
                                 <button
