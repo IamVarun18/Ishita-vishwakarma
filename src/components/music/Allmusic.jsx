@@ -63,12 +63,12 @@ const Allmusic = () => {
       ];
 
   return (
-    <div className="min-h-screen bg-white max-w-7xl mx-auto ">
+    <div className="min-h-screen bg-white mx-auto w">
 
 
       {/* Filter Buttons */}
-      <div className="container mx-auto  py-16  mt-20">
-        <div className="flex justify-center  px-4 mb-10 max-w-5xl mx-auto">
+      <div className="container mx-auto w-full py-16   mt-20">
+        <div className="flex justify-center  px-4 mb-10 mx-auto">
           <button className="bg-red text-white text-lg font-semibold py-2 px-6 rounded-sm">All Music</button>
           <button className="border border-red text-red text-lg font-semibold py-2 px-6 rounded-sm">Vocals</button>
           <button className="border border-red text-red text-lg font-semibold py-2 px-6 rounded-sm">Lyrics</button>
@@ -77,7 +77,7 @@ const Allmusic = () => {
         </div>
 
         {/* Song List */}
-        <div className="space-y-4">
+        <div className="space-y-4 ">
       {songs.map((song, index) => (
     // Song Card
     <div key={index} className="bg-pink p-4 rounded-md grid grid-cols-5 items-center gap-4">

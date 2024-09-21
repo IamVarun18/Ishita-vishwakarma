@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 
-const Allmusic = () => {
+const AudioPreview = () => {
   const [isPlaying, setIsPlaying] = useState([false, false, false, false]); // For toggling play/pause
 
   const songs = [
@@ -88,7 +88,7 @@ const Allmusic = () => {
               <p>Released On: {song.releaseDate}</p>
 
               <div className="flex space-x-4 mt-4">
-                <Image src={song.platforms.spotify} alt="Spotify" width={30} height={30} />
+                <Image src={song.platforms.appleMusic} alt="Spotify" width={30} height={30} />
                 <Image src={song.platforms.appleMusic} alt="Apple Music" width={30} height={30} />
                 <Image src={song.platforms.youtube} alt="YouTube" width={30} height={30} />
               </div>
@@ -100,4 +100,4 @@ const Allmusic = () => {
   );
 };
 
-export default Allmusic;
+export default AudioPreview;

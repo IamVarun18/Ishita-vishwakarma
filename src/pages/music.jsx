@@ -1,12 +1,12 @@
 
-import { Allmusic } from '@/components'
+import { Allmusic, AudioPreview } from '@/components'
 import PublicLayout from '@/layouts/public'
 
 const Music = () => {
   return (
    <PublicLayout>
     <Allmusic/>
-    {/* <AudioPreview/> */}
+    <AudioPreview/>
       
    </PublicLayout>
   )
