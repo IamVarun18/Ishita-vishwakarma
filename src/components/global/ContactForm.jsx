@@ -39,8 +39,8 @@ const ContactForm = () => {
                 Queries:
               </h2>
               <p className="text-lg mt-4">
-                Let's collaborate and make music together! <br /> Text or email
-                to us at:
+                Let&apos;s collaborate and make music together! <br /> Text or
+                email to us at:
               </p>
               <p className="mt-4 text-xl font-semibold text-textpink">Text:</p>
               <p className="text-lg">+91 98 76 54 32 10</p>
@@ -108,7 +108,9 @@ const ContactForm = () => {
 
       {/* Footer */}
       <footer className="absolute bottom-0 left-0 w-full text-center py-4">
-        <p className="text-textpink">Copyright © 2024 All rights reserved by IV</p>
+        <p className="text-textpink">
+          Copyright © 2024 All rights reserved by IV
+        </p>
       </footer>
     </div>
   );

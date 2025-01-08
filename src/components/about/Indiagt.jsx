@@ -1,10 +1,19 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image'; // Import the Image component
 
 const Indiagt = () => {
   return (
     <div className='h-screen relative lg:p-10 lg:gap-[10%] lg:flex-row-reverse bg-white lg:flex lg:items-center lg:justify-center'>
       <div className='lg:static lg:h-[80%] lg:w-[30%] h-[30%] w-full flex lg:justify-center items-center justify-around'>
-        <img className='w-[70%] lg:w-full' src='/home/IGT_Logo.png' alt='' />
+        {/* Replace <img> with <Image> */}
+        <Image
+          className='w-[70%] lg:w-full'
+          src='/home/IGT_Logo.png'
+          alt='IGT Logo'
+          width={500} // Specify width
+          height={500} // Specify height
+          priority // Optional: loads the image eagerly for better LCP
+        />
       </div>
 
       <div className='pt-10 flex flex-col gap-5 lg:basis-2/3'>
@@ -29,7 +38,7 @@ const Indiagt = () => {
         </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Indiagt
+export default Indiagt;
