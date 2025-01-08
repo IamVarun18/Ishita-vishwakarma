@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Root variables for light and dark modes */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -16,17 +17,52 @@
   }
 }
 
+/* Apply global font and background */
 body {
-  font-family: "Poppins", Helvetica, sans-serif !important; /* Ensure global application of the font */
-  background: var(--background);
+  font-family: "Poppins", Helvetica, sans-serif !important;
+ 
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; Prevent horizontal scrolling */
 }
 
+/* Apply font globally to all elements */
 * {
-  font-family: "Poppins", Helvetica, sans-serif !important; /* Apply font to all elements */
+  font-family: "Poppins", Helvetica, sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and borders in element width/height */
 }
 
+/* Ensure images and media are responsive */
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Prevent inline gaps for images */
+}
+
+/* Reset specific elements */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents layout overflow */
+}
+
+/* Debugging class for development - optional */
+.debug {
+  border: 1px solid red; /* Helps identify layout issues */
+}
+
+/* Utilities for better text balance */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+/* Prevent unnecessary overflow in containers */
+.container-overflow-fix {
+  overflow: hidden;
+}
+
+

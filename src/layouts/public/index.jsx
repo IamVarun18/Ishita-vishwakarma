@@ -29,7 +29,9 @@ const PublicLayout = ({
         />
       </Head>
       <main className=" w-full relative ">
+       
         <Navbar />
+       
         {children}
       </main>
     </>

@@ -10,9 +10,7 @@ module.exports = {
     extend: {
       colors: {
         textpink: "#F4A8B5",
-
         lightpink: "#FFE9ED",
-
         pink: "#FBD7DB",
         brown: "#260609",
         beige: "#F09F74",
@@ -26,10 +24,11 @@ module.exports = {
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("daisyui"),
+  ],
 };

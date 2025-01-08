@@ -1,27 +1,34 @@
 import React from 'react'
 
 const Winner = () => {
-    return (
-        <div className='h-screen p-10 gap-[10%]  bg-white flex items-center justify-center'>
+  return (
+    <div className='h-screen relative lg:p-10  lg:gap-[10%]   lg:flex-row-reverse bg-white lg:flex lg:items-center lg:justify-center  '>
+      <div className=' lg:static  lg:h-[80%] lg:w-[30%] h-[30%] w-full  flex lg:justify-center items-center justify-around  '>
+        <img className=' w-[50%] lg:w-full' src='/home/sare.png' alt='' />
+        <h1 className='lg:hidden text-5xl '>2019</h1>
+      </div>
 
+      <div className=' pt-10 flex flex-col gap-5 lg:basis-2/3'>
+        <h1 className='font-normal text-red lg:text-9xl text-6xl px-8 '>
+          Winner
+        </h1>
 
-            <div className=" flex flex-col gap-5 basis-2/3" >
-                <h1 className="font-normal text-red text-9xl px-8" >Winner</h1>
+        <p className='px-8 lg:text-xl text-justify'>
+          Lorem ipsum dolor sit amet, consectetuer adipi scing elit, sed diam
+          nonummy nibh euismod tinci dunt ut laoreet dolore magna aliquam erat
+          volut pat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+          sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+          aliquam erat volutpat.
+        </p>
 
-                <p className="px-8 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ducimus, quia itaque ullam, dolorum facere soluta vel enim dicta consequatur nesciunt molestiae culpa. Itaque nostrum error praesentium, libero nisi incidunt suscipit at consequatur mollitia sunt ullam expedita delectus eum perferendis quos molestiae enim quidem pariatur laborum sint magni similique illo!</p>
-
-                <p className="px-8 text-xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque distinctio, quas eligendi, accusantium neque temporibus numquam esse quo ratione possimus delectus libero ducimus eum odio fuga magnam aperiam ex! Ad distinctio ipsa at cupiditate omnis ipsam ratione, .</p>
-
-
-            </div>
-
-
-            <div className='h-[80%] w-[30%] flex justify-center items-center '>
-                <img className='h-[100%]  ' src="/home/sare.png" alt="" />
-            </div>
-
-        </div>
-    )
+        <p className='px-8 lg:text-xl text-justify '>
+          Lorem ipsum dolor sit amet, consectetuer adipi scing elit, sed diam
+          nonummy nibh euismod tinci dunt ut laoreet dolore magna aliquam erat
+          volut pat.
+        </p>
+      </div>
+    </div>
+  )
 }
 
 export default Winner
