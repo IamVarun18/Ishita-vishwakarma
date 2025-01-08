@@ -4,6 +4,7 @@ const Homepage = () => {
       {/* Overlay for better contrast */}
       <div className='absolute inset-0 bg-black bg-opacity-50'></div>
 
+<<<<<<< HEAD
       {/* Main Text Section */}
       <div
         className='relative z-10 flex flex-col 
@@ -26,6 +27,11 @@ const Homepage = () => {
             </span>
           </p>
         </div>
+=======
+        <p className="mt-4 text-lg text-gray-300 max-w-lg">
+         {` Winner Of <span className="font-semibold !text-white">Sa Re Ga Ma Pa</span> | 1st Runner Up <span className="font-semibold !text-white">India's Got Talent</span>`}
+        </p>
+>>>>>>> 7623fbbdd793c1360b1b5750cc374e5ed59fd925
       </div>
 
       {/* Signature Section */}

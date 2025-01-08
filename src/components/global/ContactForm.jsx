@@ -3,10 +3,27 @@ import React, { useState } from "react";
 const ContactForm = () => {
   const [result, setResult] = useState("");
 
+<<<<<<< HEAD
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending...");
     const formData = new FormData(event.target);
+=======
+            <div className='px-[5%]'>
+                <div className="grid grid-cols-3 gap-20">
+                    {/* Left section for Business Queries */}
+                    <div className='col-span-1'>
+                    <div className='flex flex-col'>
+                        <h2 className='text-4xl font-bold text-textpink '>For Business <br />Queries:</h2>
+                        <p className='text-lg mt-4'>{`Let's collaborate and make music together! <br /> Text or email to us at:`}</p>
+                        <p className='mt-4 text-xl font-semibold text-textpink'>Text:</p>
+                        <p className='text-lg'>+91 98 76 54 32 10</p>
+                        <p className='mt-4 text-xl font-semibold text-textpink'>Mail:</p>
+                        <p className='text-lg'>Ishitavishwakarma@gmail.com</p>
+                    </div>
+                    </div>
+                   
+>>>>>>> 7623fbbdd793c1360b1b5750cc374e5ed59fd925
 
     // Add your Web3Forms access key here
     formData.append("access_key", "81d3b660-4ad1-4763-a7a5-480ce9815808");
@@ -16,6 +33,7 @@ const ContactForm = () => {
       body: formData,
     });
 
+<<<<<<< HEAD
     const data = await response.json();
 
     if (data.success) {
@@ -46,6 +64,32 @@ const ContactForm = () => {
               <p className="text-lg">+91 98 76 54 32 10</p>
               <p className="mt-4 text-xl font-semibold text-textpink">Mail:</p>
               <p className="text-lg">Ishitavishwakarma@gmail.com</p>
+=======
+                            {/* Recaptcha and submit button */}
+                            <div className='flex items-center space-x-4'>
+                                <div className='flex items-center'>
+                                    <input
+                                        type='checkbox'
+                                        id='recaptcha'
+                                        className='mr-2'
+                                    />
+                                    <label htmlFor='recaptcha' className='text-lg'>
+                                       {` I'm not a robot`}
+                                    </label>
+                                </div>
+                                <button
+                                    type='submit'
+                                    className='bg-red border-none text-white px-6 py-2 rounded-lg'
+                                >
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                  
+                </div>
+>>>>>>> 7623fbbdd793c1360b1b5750cc374e5ed59fd925
             </div>
           </div>
 
