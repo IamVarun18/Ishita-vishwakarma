@@ -15,7 +15,7 @@ const MusicMain = () => {
   
 
   return (
-    <div className="py-10 bg-white">
+    <div className="lg:py-28 py-28 bg-white">
       <div className="text-center mb-10">
         <h1 className="font-sans text-4xl font-light">
           Trending <span className="font-bold">Music Now</span>

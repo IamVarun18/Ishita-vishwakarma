@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
 const AllMusic = () => {
   const songs = [
@@ -65,7 +65,7 @@ const AllMusic = () => {
         }
       }
     },
-    
+
     {
       title: 'Ab Navyug Ki Gangotri Se ( PragyaGeet )',
       artist: 'Ft. Ishita Viswakarma',
@@ -83,7 +83,7 @@ const AllMusic = () => {
         },
         youtube: {
           icon: '/ICONS/Icons/1x/ytcolor.png',
-          url: "https://www.youtube.com/embed/xo88d4ZhnSg?si=8X4hj2RrGgHVzqXK"
+          url: 'https://www.youtube.com/embed/xo88d4ZhnSg?si=8X4hj2RrGgHVzqXK'
         }
       }
     },
@@ -104,14 +104,37 @@ const AllMusic = () => {
         },
         youtube: {
           icon: '/ICONS/Icons/1x/ytcolor.png',
-          url: "https://www.youtube.com/embed/AdX19OvxAC0?si=BR25ud3IaF2xBvQ_"
+          url: 'https://www.youtube.com/embed/AdX19OvxAC0?si=BR25ud3IaF2xBvQ_'
         }
       }
-    },{
-      title: 'Ab Navyug Ki Gangotri Se ( PragyaGeet )',
+    },
+    {
+      title: 'Krishna Song | Meera Si Deewani Hogai',
       artist: 'Ft. Ishita Viswakarma',
-      duration: '6:59',
-      releaseDate: '29/07/23',
+      duration: '4:01',
+      releaseDate: '19/10/23',
+      category: 'Devotional',
+      platforms: {
+        spotify: {
+          icon: '/ICONS/Icons/1x/spotify.png',
+          url: 'https://open.spotify.com/track/3AuKqcydR3aE7jxqlzQNiC?si=801a4789277946b3'
+        },
+        appleMusic: {
+          icon: '/ICONS/Icons/1x/imusic.png',
+          url: 'https://www.apple.com/in/search/ishita-vishwakarma?src=globalnav'
+        },
+        youtube: {
+          icon: '/ICONS/Icons/1x/ytcolor.png',
+          url: 'https://www.youtube.com/embed/hdxk1D1o6L8?si=uUxMTksMT83Ewfa-'
+        }
+      }
+    },
+
+    {
+      title: 'Aarti Shri DurgaJi',
+      artist: 'Ft. Ishita Viswakarma',
+      duration: '11:11',
+      releaseDate: '14/10/2020',
       category: 'Devotional',
       platforms: {
         spotify: {
@@ -124,7 +147,50 @@ const AllMusic = () => {
         },
         youtube: {
           icon: '/ICONS/Icons/1x/ytcolor.png',
-          url: "https://www.youtube.com/embed/xo88d4ZhnSg?si=8X4hj2RrGgHVzqXK"
+          url: 'https://www.youtube.com/embed/Nix6Ts746iw?si=eefWml2aeLsU2TmU'
+        }
+      }
+    },
+    {
+      title: 'Radhe Krishna Radhe Krishna Krishna Krishna Radhe Radhe',
+      artist: 'Ft. Ishita Viswakarma',
+      duration: '44:37',
+      releaseDate: '02/09/2023',
+      category: 'Devotional',
+      platforms: {
+        spotify: {
+          icon: '/ICONS/Icons/1x/spotify.png',
+          url: 'https://open.spotify.com/track/2FoUVJbYEEh4gSjmN2ibHP?si=3b5bc26ba0c848b3'
+        },
+        appleMusic: {
+          icon: '/ICONS/Icons/1x/imusic.png',
+          url: 'https://music.apple.com/in/album/radhe-krishna-radhe-krishna/1706826094?i=1706826095'
+        },
+        youtube: {
+          icon: '/ICONS/Icons/1x/ytcolor.png',
+          url: 'https://www.youtube.com/embed/exV-aE9OrvU?si=rhmBDbgNWigAUYOP'
+        }
+      }
+    },
+
+    {
+      title: 'Ashutosh Shashank Shekhar',
+      artist: 'Ft. Ishita Viswakarma',
+      duration: '05:06',
+      releaseDate: '06/03/2024',
+      category: 'Devotional',
+      platforms: {
+        spotify: {
+          icon: '/ICONS/Icons/1x/spotify.png',
+          url: 'https://open.spotify.com/track/3WplOVPkcJCnmP4seGV7hh?si=1d1a8f958fad4161'
+        },
+        appleMusic: {
+          icon: '/ICONS/Icons/1x/imusic.png',
+          url: 'https://www.apple.com/in/search/ishita-vishwakarma?src=globalnav'
+        },
+        youtube: {
+          icon: '/ICONS/Icons/1x/ytcolor.png',
+          url: 'https://www.youtube.com/embed/exV-aE9OrvU?si=rhmBDbgNWigAUYOP'
         }
       }
     },
@@ -146,31 +212,40 @@ const AllMusic = () => {
         },
         youtube: {
           icon: '/ICONS/Icons/1x/ytcolor.png',
-          url: 'https://youtube.com/example2',
-          
+          url: 'https://youtube.com/example2'
         }
       }
     }
-  ];
+  ]
 
-  const [filter, setFilter] = useState('All Music');
+  const [filter, setFilter] = useState('All Music')
 
   const filteredSongs =
-    filter === 'All Music' ? songs : songs.filter(song => song.category === filter);
+    filter === 'All Music'
+      ? songs
+      : songs.filter(song => song.category === filter)
 
-  const categories = ['All Music', 'Devotional', 'Play Back', 'Original', 'Jazz'];
+  const categories = [
+    'All Music',
+    'Devotional',
+    'Play Back',
+    'Original',
+    'Jazz'
+  ]
 
   return (
-    <div className="min-h-screen bg-white flex justify-center items-start mt-16 py-16">
-      <div className="w-full lg:max-w-[80vw]  max-w-[90vw] ">
+    <div className='min-h-screen bg-white flex justify-center items-start mt-16 py-16'>
+      <div className='w-full lg:max-w-[80vw]  max-w-[90vw] '>
         {/* Filter Buttons */}
-        <div className="mb-10 ">
-          <div className="lg:flex gap-8 lg:w-auto   lg:items-start lg:justify-between grid">
+        <div className='mb-10 '>
+          <div className='lg:flex gap-8 lg:w-auto   lg:items-start lg:justify-between grid'>
             {categories.map(category => (
               <button
                 key={category}
                 className={`py-2 w-full px-6 rounded-md font-semibold text-base ${
-                  filter === category ? 'bg-red text-white' : 'border border-red text-red'
+                  filter === category
+                    ? 'bg-red text-white'
+                    : 'border border-red text-red'
                 }`}
                 onClick={() => setFilter(category)}
               >
@@ -181,66 +256,51 @@ const AllMusic = () => {
         </div>
 
         {/* Song List */}
-        <div className="flex flex-col gap-4">
+        <div className='flex flex-col gap-4'>
           {filteredSongs.map((song, index) => (
             <div
               key={index}
-              className="bg-pink p-4 rounded-md grid lg:grid-cols-10 grid-cols-8 gap-4 items-center"
+              className='bg-pink p-4 rounded-md grid lg:grid-cols-10 grid-cols-8 gap-4 items-center'
             >
-              <h3 className="lg:col-span-2 col-span-4 text-lg font-semibold">{song.title}</h3>
-              <p className="lg:col-span-2 hidden lg:block text-sm">{song.artist}</p>
-              <p className="lg:col-span-2 hidden lg:block text-sm">Duration: {song.duration}</p>
-              <p className="lg:col-span-2 hidden lg:block text-sm">Released On: {song.releaseDate}</p>
-              <div className="lg:col-span-2 col-span-4 flex justify-end gap-4">
-                {Object.entries(song.platforms).map(([platform, { icon, url }]) => (
-                  <a
-                    key={platform}
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src={icon}
-                      alt={platform}
-                      className="w-8 h-8 lg:w-6 lg:h-6"
-                    />
-                  </a>
-                ))}
+              <h3 className='lg:col-span-2 col-span-4 text-lg font-semibold'>
+                {song.title}
+              </h3>
+              <p className='lg:col-span-2 hidden lg:block text-sm'>
+                {song.artist}
+              </p>
+              <p className='lg:col-span-2 hidden lg:block text-sm'>
+                Duration: {song.duration}
+              </p>
+              <p className='lg:col-span-2 hidden lg:block text-sm'>
+                Released On: {song.releaseDate}
+              </p>
+              <div className='lg:col-span-2 col-span-4 flex justify-end gap-4'>
+                {Object.entries(song.platforms).map(
+                  ([platform, { icon, url }]) => (
+                    <a
+                      key={platform}
+                      href={url}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <img
+                        src={icon}
+                        alt={platform}
+                        className='w-8 h-8 lg:w-6 lg:h-6'
+                      />
+                    </a>
+                  )
+                )}
               </div>
             </div>
           ))}
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AllMusic;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default AllMusic
 
 // const Allmusic = () => {
 //   const songs = [
@@ -345,7 +405,7 @@ export default AllMusic;
 //                 Released On: {song.releaseDate}
 //               </p>
 //               <div
-//                 className='flex space-x-4 lg:items-end lg:col-span-2 col-span-4  lg:justify-center border-2 
+//                 className='flex space-x-4 lg:items-end lg:col-span-2 col-span-4  lg:justify-center border-2
 //              justify-end '
 //               >
 //                 <img

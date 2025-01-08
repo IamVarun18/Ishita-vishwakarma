@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import {
   FaFacebookF,
   FaInstagram,
@@ -8,7 +7,6 @@ import {
   FaLinkedinIn
 } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -18,18 +16,12 @@ const Navbar = () => {
       <div className='navbar-start flex items-center space-x-4'>
         {/* Logo */}
         <Link href='/' className='btn btn-ghost normal-case text-xl'>
-          <Image
-            src='/ICONS/Icons/1x/logo.png'
-            alt='Logo'
-            width={48}
-            height={48}
-            className='h-12'
-          />
+          <img src='ICONS/Icons/1x/logo.png' alt='Logo' className='h-12' />
         </Link>
       </div>
 
       {/* Navbar Center */}
-      <div className='navbar-center hidden lg:flex justify-evenly space-x-4'>
+      <div className='navbar-center hidden lg:flex  justify-evenly  space-x-4'>
         <ul className='menu menu-horizontal px-1 space-x-6'>
           <li>
             <Link href='/'>Home</Link>
@@ -47,10 +39,12 @@ const Navbar = () => {
             <Link href='/contact'>Contact</Link>
           </li>
         </ul>
+        {/* Social Media Icons for Desktop */}
       </div>
 
       {/* Navbar End */}
-      <div className='navbar-end hidden lg:flex space-x-4 items-center align-middle'>
+      <div className='navbar-end hidden lg:flex space-x-4  items-center align-middle'>
+        {/* Social Media Icons for Desktop (this section is redundant and removed) */}
         <div className='flex items-center align-middle space-x-4 mr-6'>
           <Link href='#'>
             <FaFacebookF className='h-6 w-6' />
