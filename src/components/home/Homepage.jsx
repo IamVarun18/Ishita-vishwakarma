@@ -4,7 +4,7 @@ const Homepage = () => {
       {/* Overlay for better contrast */}
       <div className='absolute inset-0 bg-black bg-opacity-50'></div>
 
-      {/* Main Text Section */}
+      {/* Main TextSection */}
       <div
         className='relative z-10 flex flex-col 
       items-center md:items-start justify-center h-full px-6 md:px-16 text-center md:text-left'
