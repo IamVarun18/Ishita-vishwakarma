@@ -2,13 +2,13 @@ import Image from 'next/image';
 
 const Homepage = () => {
   return (
-    <div className="relative bg-[url('https://images.unsplash.com/photo-1542327767-84a0608a44a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-center bg-cover h-screen">
+    <div className="relative bg-[url('https://ik.imagekit.io/zftwymhqf/main%20images/3e9adc8c-ce74-44f3-8637-be14af95a27c.JPG?updatedAt=1736441505737')] bg-no-repeat bg-center bg-cover h-screen">
       {/* Overlay for better contrast */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       {/* Main Text Section */}
       <div className="relative z-10 flex flex-col items-center md:items-start justify-center h-full px-6 md:px-16 text-center md:text-left">
-        <div className="bottom-[18%] lg:bottom-0 flex-col items-start flex lg:flex-col lg:relative absolute">
+        <div className="bottom-[28%] lg:bottom-0 flex-col items-start flex lg:flex-col lg:relative absolute">
           <h1 className="text-5xl md:text-6xl lg:font-semibold font-semibold text-white">
             Ishita
           </h1>
@@ -28,7 +28,7 @@ const Homepage = () => {
 
       {/* Signature Section */}
       <div className="relative">
-        <div className="absolute lg:bottom-20 lg:left-[7%] md:transform md:-translate-x-1/2 md:flex md:flex-col md:items-center bottom-4 left-5">
+        <div className="absolute lg:bottom-20 lg:left-[7%] md:transform md:-translate-x-1/2 md:flex md:flex-col md:items-center bottom-20 left-5">
           <Image
             src="/ICONS/Icons/1x/sign.png"
             alt="Signature"
