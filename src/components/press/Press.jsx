@@ -1,12 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'  // Import Image for optimization
 
 const Press = () => {
   const data = [
     {
       id: 1,
       title: 'Times of India',
-      description: "Badshah Weeps as Contestant Sings Lata's Classic",
+      description: "Badshah Weeps as Contestant Sings Lata&apos;s Classic",
       semiDescription: " Shilpa Shetty Joins on Stage",
       link: 'https://timesofindia.indiatimes.com/tv/news/hindi/badshah-weeps-after-indias-got-talent-contestant-sings-lata-mangeshkars-tu-jahaan-jaahan-chalega-beautifully-shilpa-shetty-hugs-her-on-stage/articleshow/88867747.cms'
     },
