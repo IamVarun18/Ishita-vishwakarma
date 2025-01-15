@@ -20,17 +20,17 @@ const AboutMe = () => {
           </h1>
 
           <p className='lg:px-8 px-2 text-sm translate-y-2 flex text-justify'>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-            aliquam erat volutpat.
+            Hi, I'm Ishita Vishwakarma, a playback singer and proud winner of
+            Zee TV's Sa Re Ga Ma Pa 2019. Known globally as "Chhoti Lata Ji,"
+            I've performed Lata Mangeshkar Ji's classics across countries like
+            London, Canada, Dubai, and more.
           </p>
 
           <p className='lg:px-8 px-2 text-sm translate-y-2 flex text-justify'>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat
+            My achievements include collaborating with Arijit Singh in Pyar Hai
+            Toh Hai (2023), becoming a Brand Ambassador for Lado Abhiyan, and
+            receiving the prestigious DHRUV Tara award. Music is my passion, and
+            I'm grateful to share it worldwide.
           </p>
 
           <h6 className='px-8'>-ishita Vishwakarma</h6>

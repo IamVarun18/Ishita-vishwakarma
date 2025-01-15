@@ -46,10 +46,14 @@ const Navbar = () => {
       <div className='navbar-end hidden lg:flex space-x-4  items-center align-middle'>
         {/* Social Media Icons for Desktop (this section is redundant and removed) */}
         <div className='flex items-center align-middle space-x-4 mr-6'>
-          <Link href='#'>
+          <Link
+            href='https://www.facebook.com/singer.ishita.official/'
+            target='blank'
+          >
             <FaFacebookF className='h-6 w-6' />
           </Link>
-          <Link href='#'>
+          <Link href='https://www.instagram.com/singer.ishita.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
+          target='blank'>
             <FaInstagram className='h-6 w-6' />
           </Link>
           <Link href='#'>
@@ -58,7 +62,7 @@ const Navbar = () => {
           <Link href='#'>
             <FaLinkedinIn className='h-6 w-6' />
           </Link>
-          <Link href='#'>
+          <Link href='https://youtube.com/@singer.ishita.official?si=xoGWRqCPBRM00f-_' target='blank'>
             <FaYoutube className='h-6 w-6' />
           </Link>
         </div>

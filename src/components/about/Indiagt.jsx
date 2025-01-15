@@ -22,19 +22,17 @@ const Indiagt = () => {
         </h1>
 
         <p className='px-8 lg:text-xl text-justify'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ducimus,
-          quia itaque ullam, dolorum facere soluta vel enim dicta consequatur
-          nesciunt molestiae culpa. Itaque nostrum error praesentium, libero
-          nisi incidunt suscipit at consequatur mollitia sunt ullam expedita
-          delectus eum perferendis quos molestiae enim quidem pariatur laborum
-          sint magni similique illo!
+          Securing the position of 1st Runner Up on Sony TV's *India's Got
+          Talent 2022* was an incredible moment of pride and fulfillment. This
+          achievement reflected not just talent, but also the passion to
+          connect with audiences on a grand scale.
         </p>
 
         <p className='px-8 lg:text-xl text-justify'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          eaque distinctio, quas eligendi, accusantium neque temporibus numquam
-          esse quo ratione possimus delectus libero ducimus eum odio fuga magnam
-          aperiam ex! Ad distinctio ipsa at cupiditate omnis ipsam ratione.
+          Performing on one of the country's most prestigious stages and
+          earning accolades from celebrated judges was an unforgettable
+          experience. It further solidified a commitment to excellence and the
+          power of music to inspire and move hearts across India.
         </p>
       </div>
     </div>
