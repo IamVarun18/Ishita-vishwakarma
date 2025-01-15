@@ -8,7 +8,7 @@ const Press = () => {
       title: 'Times of India',
       description: "Badshah Weeps as Contestant Sings Lata's Classic",
       semiDescription: " Shilpa Shetty Joins on Stage",
-      link: '/times-of-india'
+      link: 'https://timesofindia.indiatimes.com/tv/news/hindi/badshah-weeps-after-indias-got-talent-contestant-sings-lata-mangeshkars-tu-jahaan-jaahan-chalega-beautifully-shilpa-shetty-hugs-her-on-stage/articleshow/88867747.cms'
     },
     {
       id: 2,
@@ -22,14 +22,14 @@ const Press = () => {
       title: 'India Today',
       description: 'Sa Re Ga Ma Pa winner: Who is Ishita Vishwakarma?',
       semiDescription: ' Lesser-known facts, unseen pics and videos',
-      link: '/ishita-song'
+      link: 'https://www.indiatoday.in/television/reality-tv/story/sa-re-ga-ma-pa-winner-who-is-ishita-vishwakarma-lesser-known-facts-unseen-pics-and-videos-1440752-2019-01-28'
     },
     {
       id: 4,
       title: 'DNA',
       description: "Watch Sa Re Ga Ma Pa 2018 winner ",
       semiDescription: "Ishita Vishwakarma's 7 best performances",
-      link: '/times-of-india'
+      link: 'https://www.dnaindia.com/television/photo-gallery-watch-sa-re-ga-ma-pa-2018-winner-ishita-vishwakarma-s-7-best-performances-2712953/ishita-vishwakarma-2712954'
     },
     {
       id: 5,
