@@ -19,7 +19,7 @@ const Aboutfront = () => {
   }, []) // Empty dependency array ensures this runs only once after mount
 
   return isMobileView ? (
-    <AboutMe /> // Render AboutMe when it's mobile view
+    <AboutMe /> // Render AboutMe when it's mobile 
   ) : (
     <div className='h-screen p-10 gap-[10%] bg-pink flex items-center justify-center'>
       <div className='flex flex-col gap-5 basis-2/3'>
