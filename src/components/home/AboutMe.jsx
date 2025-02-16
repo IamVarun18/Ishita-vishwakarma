@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 const AboutMe = () => {
   return (
-    <div className='h-screen   w-full flex justify-center lg:items-center overflow-hidden'>
+    <div className='h-screen w-full flex justify-center lg:items-center overflow-hidden'>
       <div className='relative lg:top-0 translate-y-8 w-[90%] h-screen lg:w-[80%] lg:h-[75%] flex lg:flex-row flex-wrap justify-center items-center lg:justify-normal lg:items-start'>
         <div className='h-[35vh] w-[35vh] lg:h-[90%] relative flex justify-center lg:flex lg:flex-auto lg:justify-normal'>
           <img
@@ -20,25 +22,34 @@ const AboutMe = () => {
           </h1>
 
           <p className='lg:px-8 px-2 text-sm translate-y-2 flex text-justify'>
-            Hi, I'm Ishita Vishwakarma, a playback singer and proud winner of
-            Zee TV's Sa Re Ga Ma Pa 2019. Known globally as "Chhoti Lata Ji,"
-            I've performed Lata Mangeshkar Ji's classics across countries like
+            Hi, I'm Ishita Vishwakarma, a playback singer and the proud winner
+            of Zee TV's Sa Re Ga Ma Pa 2019. Fondly known as "Chhoti Lata Ji," I
+            have had the honor of performing the timeless melodies of Lata
+            Mangeshkar Ji on prestigious stages across the globe, including
             London, Canada, Dubai, and more.
           </p>
 
           <p className='lg:px-8 px-2 text-sm translate-y-2 flex text-justify'>
-            My achievements include collaborating with Arijit Singh in Pyar Hai
-            Toh Hai (2023), becoming a Brand Ambassador for Lado Abhiyan, and
-            receiving the prestigious DHRUV Tara award. Music is my passion, and
-            I'm grateful to share it worldwide.
+            My journey in music has led me to incredible milestones, from
+            collaborating with Arijit Singh on Pyar Hai Toh Hai (2023) to being
+            recognized as the Brand Ambassador of Lado Abhiyan and receiving the
+            esteemed DHRUV Tara Award. Music is not just my passion—it’s my way
+            of connecting hearts across borders. I feel truly blessed to share
+            my voice with the world and continue this beautiful journey of
+            melodies and emotions.
           </p>
 
-          <h6 className='px-8'>-ishita Vishwakarma</h6>
-          <h6 className='px-8'>learn more</h6>
+          <h6 className='px-8'>- Ishita Vishwakarma</h6>
+
+          {/* Corrected Link */}
+          <Link href="/about">
+            <h6 className='px-8 cursor-pointer  underline'>Learn more</h6>
+          </Link>
+
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;
