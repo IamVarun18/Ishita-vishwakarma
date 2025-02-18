@@ -1,3 +1,8 @@
+"use client";
+
+import React from "react";
+import Link from "next/link";
+
 const Musiclib = () => {
   return (
     <div
@@ -19,11 +24,15 @@ const Musiclib = () => {
         <h1 className='lg:text-3xl text-2xl'>Reality Shows</h1>
         <h1 className='text-red'> ---------- </h1>
       </div>
-      <button className='hidden lg:block lg:absolute bottom-10 left-1/2 transform -translate-x-1/2 rounded-xl bg-red px-5 py-3 text-xl text-white'>
-        Open Music Library
-      </button>
-    </div>
-  )
-}
 
-export default Musiclib
+      {/* Redirect Button using Link */}
+      <Link href="/music">
+        <button className="hidden lg:block lg:absolute bottom-10 left-1/2 transform -translate-x-1/2 rounded-xl bg-red px-5 py-3 text-xl text-white">
+          Open Music Library
+        </button>
+      </Link>
+    </div>
+  );
+};
+
+export default Musiclib;
