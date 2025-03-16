@@ -33,7 +33,7 @@ const AudioPreview = () => {
       duration: '44:37',
       releaseDate: '2 Sept 2023',
       spotifyEmbed:
-        'https://open.spotify.com/embed/track/2FoUVJbYEEh4gSjmN2ibHP?utm_source=generator&theme=0'
+        'https://open.spotify.com/embed/track/0QvaM2IEPdFcrpQtwv97eY?utm_source=generator'
     }
   ]
 

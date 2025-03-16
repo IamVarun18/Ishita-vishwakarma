@@ -196,23 +196,114 @@ const AllMusic = () => {
     },
 
     {
-      title: 'Play Back Symphony',
-      artist: 'John Doe',
+      title: 'Mann Jogiya',
+      artist: 'ArijitSingh,IshitaVishwakarma',
       duration: '4:20',
       releaseDate: '01/12/23',
-      category: 'Play Back',
+      category: 'Playback Debut',
       platforms: {
         spotify: {
           icon: '/ICONS/Icons/1x/spotify.png',
-          url: 'https://open.spotify.com/track/example2'
+          url: 'https://open.spotify.com/track/1oHCAYOHUIrjBcizvDShgD'
         },
         appleMusic: {
           icon: '/ICONS/Icons/1x/imusic.png',
-          url: 'https://music.apple.com/example2'
+          url: 'https://music.apple.com/in/album/mann-jogiya-from-pyaar-hai-toh-hai-Ishita Vishwakarma Originals-motion/1707842803'
         },
         youtube: {
           icon: '/ICONS/Icons/1x/ytcolor.png',
-          url: 'https://youtube.com/example2'
+          url: 'https://www.youtube.com/watch?v=2oK_SyDC6pU'
+        }
+      }
+    },
+
+    {
+      title: 'Agle Janam Bhi Mujhko',
+      artist: 'Anu Malik x Ishita Vishwakarma',
+      duration: '4:20',
+      releaseDate: '01/12/23',
+      category: 'Originals',
+      platforms: {
+        spotify: {
+          icon: '/ICONS/Icons/1x/spotify.png',
+          url: 'https://open.spotify.com/track/1oHCAYOHUIrjBcizvDShgD'
+        },
+        appleMusic: {
+          icon: '/ICONS/Icons/1x/imusic.png',
+          url: 'https://music.apple.com/in/album/mann-jogiya-from-pyaar-hai-toh-hai-Ishita Vishwakarma Originals-motion/1707842803'
+        },
+        youtube: {
+          icon: '/ICONS/Icons/1x/ytcolor.png',
+          url: 'https://www.youtube.com/watch?v=fB0IIlVc6Ms'
+        }
+      }
+    },
+
+    {
+      title: 'Baarish Mein',
+      artist: 'Ishita Vishwakarma',
+      duration: '5:09',
+      releaseDate: '20/06/24',
+      category: 'Originals',
+      platforms: {
+        spotify: {
+          icon: '/ICONS/Icons/1x/spotify.png',
+          url: 'https://open.spotify.com/artist/2oaus66w5EZnNJo22QGq8Z'
+        },
+        appleMusic: {
+          icon: '/ICONS/Icons/1x/imusic.png',
+          url: 'https://music.apple.com/in/artist/ishita-vishwakarma/1183285979'
+        },
+        youtube: {
+          icon: '/ICONS/Icons/1x/ytcolor.png',
+          url: 'https://www.youtube.com/watch?v=_2_Th93m3sQ'
+        }
+      }
+    }
+
+    ,
+
+    {
+      title: 'Dil Mein Mere',
+      artist: 'Ishita Vishwakarma',
+      duration: '4:18',
+      releaseDate: '24/01/25',
+      category: 'Originals',
+      platforms: {
+        spotify: {
+          icon: '/ICONS/Icons/1x/spotify.png',
+          url: 'https://open.spotify.com/artist/2oaus66w5EZnNJo22QGq8Z'
+        },
+        appleMusic: {
+          icon: '/ICONS/Icons/1x/imusic.png',
+          url: 'https://music.apple.com/in/artist/ishita-vishwakarma/1183285979'
+        },
+        youtube: {
+          icon: '/ICONS/Icons/1x/ytcolor.png',
+          url: 'https://www.youtube.com/watch?v=9uenIIz4De8'
+        }
+      }
+    }
+    ,
+
+    {
+      title: 'Ishq Ho Gaya Hain Tumse',
+      artist: 'Ishita Vishwakarma',
+      duration: '3:27',
+      releaseDate: '13/12/24',
+      category: 'Originals',
+      platforms: {
+        spotify: {
+          icon: '/ICONS/Icons/1x/spotify.png',
+          url: 'https://open.spotify.com/artist/2oaus66w5EZnNJo22QGq8Z'
+        },
+        appleMusic: {
+          icon: '/ICONS/Icons/1x/imusic.png',
+          url: 'https://music.apple.com/in/artist/ishita-vishwakarma/1183285979'
+        },
+        youtube: {
+          icon: '/ICONS/Icons/1x/ytcolor.png',
+          url: 'https://www.youtube.com/watch?v=J2Po4A4tO1U'
         }
       }
     }
@@ -228,8 +319,8 @@ const AllMusic = () => {
   const categories = [
     'All Music',
     'Devotional',
-    'Play Back',
-    'Original',
+    'Playback Debut',
+    'Originals',
     'Jazz'
   ]
 
@@ -374,10 +465,10 @@ export default AllMusic
 //               Devotional
 //             </button>
 //             <button className='border-2 border-red text-red text-base font-semibold py-2 px-14  rounded-md'>
-//               Play Back
+//               Playback Debut
 //             </button>
 //             <button className='border-2 border-red text-red text-base font-semibold py-2 px-14  rounded-md'>
-//               Original
+//               Ishita Vishwakarma Originals
 //             </button>
 //             <button className='border-2 border-red text-red text-base font-semibold py-2 px-14  rounded-md'>
 //               Jazz
