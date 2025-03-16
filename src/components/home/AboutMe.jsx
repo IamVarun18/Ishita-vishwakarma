@@ -28,7 +28,7 @@ const AboutMe = () => {
           </h1>
 
           <p className='lg:px-8 px-2 text-2xl translate-y-2 flex text-justify'>
-            Hey there, Music lovers! 🎶 Welcome to my orld, where every note
+            Hey there, Music lovers! 🎶 Welcome to my World, where every note
             tells a story and every melody connects hearts. I'm Ishita
             Vishwakarma, the proud winner of Zee TV's Sa Re Ga Ma Pa 2019, and
             they call me 'Chhoti Lata Ji' for my love of timeless classics. From
